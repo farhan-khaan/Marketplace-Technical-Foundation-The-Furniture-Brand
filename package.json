@@ -1,0 +1,35 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "migrate": "node script/migrate.mjs",
+    "import-data": "node script/importData.js"
+  },
+  "dependencies": {
+    "@clerk/nextjs": "^6.10.6",
+    "@sanity/client": "^6.25.0",
+    "@sanity/image-url": "^1.1.0",
+    "@sanity/vision": "^3.70.0",
+    "@stripe/stripe-js": "^5.6.0",
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "next": "^15.1.6",
+    "next-sanity": "^9.8.38",
+    "react": "19.0.0-rc-66855b96-20241106",
+    "react-dom": "19.0.0-rc-66855b96-20241106",
+    "react-icons": "^5.4.0",
+    "sanity": "^3.70.0",
+    "stripe": "^17.6.0",
+    "styled-components": "^6.1.14"
+  },
+  "devDependencies": {
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
+  }
+}
